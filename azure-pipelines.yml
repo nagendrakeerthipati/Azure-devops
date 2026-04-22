@@ -8,7 +8,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: Default
 
 steps:
 - script: echo "Azure DevOps pipeline is running!"
