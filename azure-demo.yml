@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "Azure DevOps pipeline is running!"
+  displayName: "Simple CI step"
