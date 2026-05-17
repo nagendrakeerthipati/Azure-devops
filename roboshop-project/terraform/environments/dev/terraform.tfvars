@@ -1,2 +1,2 @@
-resource_group_name = "roboshop-dev-rg"
-location            = "East US"
+name = "roboshop-dev-rg"
+location = "East US"

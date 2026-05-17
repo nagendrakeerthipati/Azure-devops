@@ -1,8 +1,14 @@
 module "resource_group" {
-  source = "../modules/resource-group"
+  source = "../../modules/resource-group"
 
-  resource_group_name = var.resource_group_name
-  location            = var.resource_group_location
+
+#LEFT SIDE  = module input
+#RIGHT SIDE = value you are passing
+
+  resource_group_name = var.name
+  resource_group_location = var.location
+  
+  
 
   tags = {
     Project     = "roboshop"
